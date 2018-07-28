@@ -1,0 +1,7 @@
+id=auto-input-boot-pin
+name=AutoInputBootPIN
+version=1.0
+versionCode=10
+author=ZeroingIn
+description=Auto input boot pin,help Tasker and more apps start work.
+minMagisk=1500

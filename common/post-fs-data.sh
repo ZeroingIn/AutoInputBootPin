@@ -5,4 +5,3 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 # More info in the main Magisk thread
-supolicy --live "allow untrusted_app default_android_service service_manager find"

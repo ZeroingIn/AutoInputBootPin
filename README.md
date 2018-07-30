@@ -22,6 +22,6 @@ Magisk v16 Template 1600 compatabilities
 
 #### Credit & Support
 
-* Copyright (C) 2018 simonsmh <zeroing0in@gmail.com>
+* Copyright (C) 2018 ZeroingIn <zeroing0in@gmail.com>
 * Any issue or pull request is welcomed.
 * Star this module at [GitHub](https://github.com/ZeroingIn/AutoInputBootPin).

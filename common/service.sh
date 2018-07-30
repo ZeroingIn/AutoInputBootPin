@@ -13,17 +13,17 @@ done
 # 66 -->  "KEYCODE_ENTER"
 
 #convert char to keyCode
-function convert()
-{
-    #A-Za-z0-9
-    char=$1
-    charASCII=$( printf "%d" "'${char}" )
-    keyCode=$((10#${charASCII}-41))
-    echo $keyCode
-    return $keyCode
-}
+# function convert()
+# {
+#     #A-Za-z0-9
+#     char=$1
+#     charASCII=$( printf "%d" "'${char}" )
+#     keyCode=$((10#${charASCII}-41))
+#     echo $keyCode
+#     return $keyCode
+# }
 
-#source /sdcard/auto-input-boot-pin/config
+source /data/AutoInputBootPIN/config
 #input sim 1 pin
 # for i in `seq 1 ${#PIN1}`
 # do
@@ -33,9 +33,9 @@ function convert()
 # input keyevent $code
 # done
 sleep 2
-input text 123456
+input text $PIN1
 input keyevent 66
-sleep 2
+sleep $TimeInterval
 
 #input sim 2 pin
 # for i in `seq 1 ${#PIN2}`
@@ -45,9 +45,9 @@ sleep 2
 # code=$(convert $c)
 # input keyevent $code
 # done
-input text 567890
+input text $PIN2
 input keyevent 66
-sleep 2
+sleep $TimeInterval
 
 #input phone pin
 # for i in `seq 1 ${#PIN3}`
@@ -57,5 +57,5 @@ sleep 2
 # code=$(convert $c)
 # input keyevent $code
 # done
-input text 9999
+input text $PIN3
 input keyevent 66

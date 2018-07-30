@@ -4,7 +4,7 @@
 
 #### 注意事项
 
-* 通过修改config文件自定义PIN的功能尚未完成，请自行clone或者fork修改代码重新打包安装模块。
+* 请先安装[AutoInputBootPinManager](https://github.com/ZeroingIn/AutoInputBootPinManager)配置你的PIN，该应用需授予Root权限。
 * 请使用最新的Magisk来安装此模块。
 * 最近更新:
 Magisk v16 Template 1600 compatabilities
@@ -15,7 +15,7 @@ This module will auto input phone/SIM PIN on phone startup.
 
 #### NOTICE
 
-* The function of customizing the PIN by modifying the config file has not been completed. Please re-package the installation module by clone or fork modify the code.
+* Please install [AutoInputBootPinManager](https://github.com/ZeroingIn/AutoInputBootPinManager) to configure your PIN. The application needs to grant root privileges.
 * You should use latest Magisk Manager to install this module. If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
 * Recent fixes:
 Magisk v16 Template 1600 compatabilities
